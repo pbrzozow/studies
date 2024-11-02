@@ -1,6 +1,6 @@
 # zad3
 Nazwa_pliku= 'Raport_maj.xlsx'
-x=Nazwa_pliku.endswith(".yxlsx")
+x=Nazwa_pliku.endswith(".xlsx")
 if(x==True):
     print("tak")
 else:

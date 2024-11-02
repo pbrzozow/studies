@@ -1,7 +1,7 @@
 #zad2
-x=float(input('Podaj x'))
-y=float(input('Podaj y'))
-z=float(input('Podaj z'))
+x=float(input('Podaj x '))
+y=float(input('Podaj y '))
+z=float(input('Podaj z '))
 if(x>y):
     x,y=y,x
 if(x>z):
