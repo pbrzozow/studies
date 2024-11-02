@@ -1,0 +1,11 @@
+# zad6
+x=""
+litera=input("litera: ")
+if litera.isalpha() and len(litera)==1:
+    if(litera.isupper()):
+        x="tak"
+    else:
+        x="nie"
+else:
+    x="litera nie spełnia warunków"
+print(f"Czy litera jest duża? {x}")

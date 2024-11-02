@@ -1,0 +1,8 @@
+gol=11
+bonus=0
+if(gol>10):
+    bonus+=10
+elif(gol>=5):
+    bonus+=5
+points = gol*10 + bonus
+print(f'Liczba punktów: {points}')

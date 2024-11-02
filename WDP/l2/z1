@@ -1,0 +1,8 @@
+# zad1
+testScore = float(input("Podaj wynik: "))
+if testScore>80:
+    print("zaliczono w pierwszym terminie")
+elif testScore<=80 and testScore>=50:
+    print("możesz poprawić swój wynik")
+else:
+    print("musisz poprawić wynik")

@@ -1,0 +1,7 @@
+# zad7
+from operator import contains
+Pass = "pk47!jy0893"
+if len(Pass)==11 and contains(Pass,'!'):
+    print("Hasło poprawne")
+else:
+    print("Hasło niepoprawne")

@@ -1,0 +1,4 @@
+# zad9
+text="ABCDEfghijk"
+text =str.swapcase(text)
+print(text)
