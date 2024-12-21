@@ -1,4 +1,4 @@
-# # zad9
+# zad9
 # name = input("Podaj imię: ")
 # print(f"Witaj, {name}")
 # age = int(input("Twój wiek: "))
@@ -16,9 +16,3 @@
 # stringsArr.append(input("Drugi string: "))
 # stringsArr.append((stringsArr[0]+stringsArr[1]))
 # print(stringsArr)
-str1 = input("Pierwszy string ")
-str2 = input("Drugi string ")
-polowa1 = len(str1) // 2
-polowa2 = len(str2) //2
-str3 = str1[:polowa1] + str2[:polowa2]
-print(str3)
