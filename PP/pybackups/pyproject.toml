@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pybackup"
+version = "0.1.0"
+description = "Pydantic-powered backup tool with encryption, compression, incremental backups & scheduling"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.0",
+    "typer>=0.12",
+    "cryptography>=42.0",
+    "apscheduler>=3.10",
+    "rich>=13.0",
+]
+
+[project.scripts]
+pybackup = "pybackup.cli:main"
+
+[tool.hatch.build]
+packages = ["src/pybackup"]
